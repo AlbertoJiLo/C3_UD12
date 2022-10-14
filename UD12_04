@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-14T07:08:59.223Z" agent="5.0 (Windows)" etag="IB4ANKdFsx86qjfLaZlN" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-14T07:09:29.673Z" agent="5.0 (Windows)" etag="6GIJ3R9d87FhP2T75kON" version="20.4.0" type="github">
   <diagram id="-qZq51veMJe4fb-DHF6R" name="Page-1">
     <mxGraphModel dx="1865" dy="570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -64,7 +64,7 @@
           <mxGeometry x="-450" y="500" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yA8Khx9lbGA-0vAOslYS-4" value="Ganar" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="-450" y="320" width="120" height="60" as="geometry" />
+          <mxGeometry x="-450" y="332" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yA8Khx9lbGA-0vAOslYS-5" value="" style="endArrow=ERzeroToMany;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endFill=0;" edge="1" parent="1" source="yA8Khx9lbGA-0vAOslYS-4" target="v8czvUCcuJIJxkzi8EP8-8">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
