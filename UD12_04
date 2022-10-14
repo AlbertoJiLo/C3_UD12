@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-14T06:25:03.394Z" agent="5.0 (X11)" etag="-CSLUFmOtfSMuOeHqxUw" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-14T06:34:46.092Z" agent="5.0 (Windows)" etag="lSYFtn6oklT0-bRNRAnF" version="20.4.0" type="github">
   <diagram id="-qZq51veMJe4fb-DHF6R" name="Page-1">
-    <mxGraphModel dx="1609" dy="697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1865" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -16,9 +16,11 @@
         <mxCell id="v8czvUCcuJIJxkzi8EP8-4" value="Pais_actualmente" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="v8czvUCcuJIJxkzi8EP8-1" vertex="1">
           <mxGeometry y="78" width="140" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="v8czvUCcuJIJxkzi8EP8-5" value="Guerra" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="-220" y="392" width="140" height="100" as="geometry" />
-        </mxCell>
+        <object label="Guerra" A="a" id="v8czvUCcuJIJxkzi8EP8-5">
+          <mxCell style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+            <mxGeometry x="-220" y="392" width="140" height="100" as="geometry" />
+          </mxCell>
+        </object>
         <mxCell id="v8czvUCcuJIJxkzi8EP8-8" value="- Nombre" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;fontStyle=4" parent="v8czvUCcuJIJxkzi8EP8-5" vertex="1">
           <mxGeometry y="26" width="140" height="22" as="geometry" />
         </mxCell>
@@ -48,7 +50,7 @@
         <mxCell id="v8czvUCcuJIJxkzi8EP8-13" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="v8czvUCcuJIJxkzi8EP8-10" vertex="1">
           <mxGeometry y="78" width="140" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="v8czvUCcuJIJxkzi8EP8-14" value="Pertenece" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+        <mxCell id="v8czvUCcuJIJxkzi8EP8-14" value="Pertenecer" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="-690" y="280" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="v8czvUCcuJIJxkzi8EP8-15" value="" style="endArrow=ERzeroToMany;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endFill=0;entryX=0.486;entryY=1.077;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="v8czvUCcuJIJxkzi8EP8-14" target="v8czvUCcuJIJxkzi8EP8-4" edge="1">
@@ -60,7 +62,7 @@
         <mxCell id="v8czvUCcuJIJxkzi8EP8-18" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.077;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=ERzeroToMany;endFill=0;" parent="1" source="v8czvUCcuJIJxkzi8EP8-16" target="v8czvUCcuJIJxkzi8EP8-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="v8czvUCcuJIJxkzi8EP8-16" value="Participa" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+        <mxCell id="v8czvUCcuJIJxkzi8EP8-16" value="Participar" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="-450" y="412" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
