@@ -1,13 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2022-10-16T16:59:51.097Z" agent="5.0 (X11)" etag="ElA0FkBI5fvSuzPRVafR" version="20.4.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-16T17:00:41.260Z" agent="5.0 (X11)" etag="a-RHBwi9u7ziALmwnupB" version="20.4.1" type="github">
   <diagram id="hiP0CWUSdTTBbQuYUhzn" name="Page-1">
-    <mxGraphModel dx="941" dy="456" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="941" dy="474" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Zhi9yeSc_7GlA-5Ih_MP-14" value="EmpresaExt" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="530" y="60" width="140" height="156" as="geometry" />
         </mxCell>
-        <mxCell id="Zhi9yeSc_7GlA-5Ih_MP-15" value="CIF&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Zhi9yeSc_7GlA-5Ih_MP-14">
+        <mxCell id="Zhi9yeSc_7GlA-5Ih_MP-15" value="CIF&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" vertex="1" parent="Zhi9yeSc_7GlA-5Ih_MP-14">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="Zhi9yeSc_7GlA-5Ih_MP-16" value="Nombre" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Zhi9yeSc_7GlA-5Ih_MP-14">
@@ -25,7 +25,7 @@
         <mxCell id="Zhi9yeSc_7GlA-5Ih_MP-20" value="Proyectos" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="530" y="320" width="140" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="Zhi9yeSc_7GlA-5Ih_MP-21" value="Id_Proyecto" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Zhi9yeSc_7GlA-5Ih_MP-20">
+        <mxCell id="Zhi9yeSc_7GlA-5Ih_MP-21" value="Id_Proyecto" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" vertex="1" parent="Zhi9yeSc_7GlA-5Ih_MP-20">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="Zhi9yeSc_7GlA-5Ih_MP-22" value="Fecha_Inicio" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Zhi9yeSc_7GlA-5Ih_MP-20">
@@ -40,7 +40,7 @@
         <mxCell id="Zhi9yeSc_7GlA-5Ih_MP-26" value="Empleado" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="160" y="110" width="140" height="182" as="geometry" />
         </mxCell>
-        <mxCell id="Zhi9yeSc_7GlA-5Ih_MP-27" value="Código_Trabajador" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Zhi9yeSc_7GlA-5Ih_MP-26">
+        <mxCell id="Zhi9yeSc_7GlA-5Ih_MP-27" value="Código_Trabajador" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" vertex="1" parent="Zhi9yeSc_7GlA-5Ih_MP-26">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="Zhi9yeSc_7GlA-5Ih_MP-28" value="DNI" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Zhi9yeSc_7GlA-5Ih_MP-26">
