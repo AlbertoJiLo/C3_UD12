@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-17T06:17:47.931Z" agent="5.0 (Windows)" etag="YgB5JcxfZ6QN9khYYLjK" version="20.4.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-17T06:18:58.456Z" agent="5.0 (Windows)" etag="uVO_WuC7y2g0fKxuSppq" version="20.4.1" type="github">
   <diagram id="SvjE5Tt0O44WlhLEymcB" name="Página-1">
     <mxGraphModel dx="1038" dy="1705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -58,7 +58,7 @@
         <mxCell id="OeuPcWrSVwOU93UCsyC9-18" value="Id_avion Int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" parent="OeuPcWrSVwOU93UCsyC9-17" vertex="1">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="OeuPcWrSVwOU93UCsyC9-19" value="num_plazas" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="OeuPcWrSVwOU93UCsyC9-17" vertex="1">
+        <mxCell id="OeuPcWrSVwOU93UCsyC9-19" value="Num_plazas" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="OeuPcWrSVwOU93UCsyC9-17" vertex="1">
           <mxGeometry y="52" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="JUaFzoYsQELImpt_EuAo-3" value="Aeropuerto" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
