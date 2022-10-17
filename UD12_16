@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-17T11:18:31.117Z" agent="5.0 (Windows)" etag="SkyGPTSWwlcMmqwZHODQ" version="20.4.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-17T11:19:40.859Z" agent="5.0 (Windows)" etag="SWWYqT7mR_HfQIJ9cQ_I" version="20.4.1" type="github">
   <diagram id="9MaM5GIxAvbSw_UFRT_N" name="Página-1">
     <mxGraphModel dx="2377" dy="1705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -40,10 +40,10 @@
         <mxCell id="5czlLF-I8vPiP0zQ_Eg--12" value="Contenido" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="5czlLF-I8vPiP0zQ_Eg--8" vertex="1">
           <mxGeometry y="52" width="140" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="5czlLF-I8vPiP0zQ_Eg--10" value="FechaEnvio" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="5czlLF-I8vPiP0zQ_Eg--8" vertex="1">
+        <mxCell id="5czlLF-I8vPiP0zQ_Eg--10" value="Fecha_Envío" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="5czlLF-I8vPiP0zQ_Eg--8" vertex="1">
           <mxGeometry y="78" width="140" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="5czlLF-I8vPiP0zQ_Eg--11" value="FechaLeido" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="5czlLF-I8vPiP0zQ_Eg--8" vertex="1">
+        <mxCell id="5czlLF-I8vPiP0zQ_Eg--11" value="Fecha_Leído" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="5czlLF-I8vPiP0zQ_Eg--8" vertex="1">
           <mxGeometry y="104" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="5czlLF-I8vPiP0zQ_Eg--13" value="Publicación" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
