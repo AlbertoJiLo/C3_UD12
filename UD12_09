@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-16T18:31:08.901Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.42" etag="L8fHhaNV6xD_IPVs9oZt" version="20.4.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-17T10:30:59.948Z" agent="5.0 (X11)" etag="vdSFVM2Zy6knll9olO_z" version="20.4.1" type="github">
   <diagram id="Utz0geJwwICxjmcghf-e" name="Página-1">
-    <mxGraphModel dx="531" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1646" dy="829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -43,7 +43,7 @@
         <mxCell id="kqqMhRgm7ZGay9pAUOi--8" value="Nombre" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="kqqMhRgm7ZGay9pAUOi--6" vertex="1">
           <mxGeometry y="52" width="140" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kqqMhRgm7ZGay9pAUOi--9" value="Alergenos" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="kqqMhRgm7ZGay9pAUOi--6" vertex="1">
+        <mxCell id="kqqMhRgm7ZGay9pAUOi--9" value="Alérgenos" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="kqqMhRgm7ZGay9pAUOi--6" vertex="1">
           <mxGeometry y="78" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="1s5wgkgNzamC5lOLf7B8-1" value="Medidas" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
