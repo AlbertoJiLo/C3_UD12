@@ -1,12 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2022-10-17T13:36:11.106Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="47k5Q0hVu7CQV87Vy5Ki" version="20.4.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-17T13:40:28.603Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="V9hcPC9ErXAvSsKYdTZi" version="20.4.1" type="github">
   <diagram id="MBV5TLltIzPcI3jAv-bp" name="Página-1">
     <mxGraphModel dx="735" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="tQd4_90CaAv87W_V-3yI-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;startArrow=ERone;startFill=0;" parent="1" source="tQd4_90CaAv87W_V-3yI-1" target="tQd4_90CaAv87W_V-3yI-5" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="tQd4_90CaAv87W_V-3yI-1" value="Cliente" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="170" y="40" width="140" height="182" as="geometry" />
         </mxCell>
@@ -27,12 +24,6 @@
         </mxCell>
         <mxCell id="tQd4_90CaAv87W_V-3yI-7" value="Apellidos" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="tQd4_90CaAv87W_V-3yI-1" vertex="1">
           <mxGeometry y="156" width="140" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="tQd4_90CaAv87W_V-3yI-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=none;startFill=0;endArrow=ERone;endFill=0;entryX=0.457;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="tQd4_90CaAv87W_V-3yI-5" target="tQd4_90CaAv87W_V-3yI-7" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="tQd4_90CaAv87W_V-3yI-5" value="Ser trabajador" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="20" y="91" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="tQd4_90CaAv87W_V-3yI-17" value="Piso" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="480" y="614" width="140" height="52" as="geometry" />
