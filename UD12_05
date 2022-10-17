@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-17T09:51:03.786Z" agent="5.0 (Windows)" etag="x4HSkI1rSuwlGizm2bRO" version="20.4.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-17T09:56:58.504Z" agent="5.0 (Windows)" etag="1cx9f-JDd8tmNKQlfR6A" version="20.4.1" type="github">
   <diagram id="PcFTYdfeTJN9Ob4tal9F" name="Página-1">
     <mxGraphModel dx="1550" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -25,7 +25,7 @@
         <mxCell id="znzz6qVKpemupsQOa1yN-6" value="Estanteria" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="413" y="119" width="140" height="52" as="geometry" />
         </mxCell>
-        <mxCell id="znzz6qVKpemupsQOa1yN-8" value="IdLetras Int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" parent="znzz6qVKpemupsQOa1yN-6" vertex="1">
+        <mxCell id="znzz6qVKpemupsQOa1yN-8" value="Id_Letras Int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" parent="znzz6qVKpemupsQOa1yN-6" vertex="1">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="znzz6qVKpemupsQOa1yN-11" value="Almacén" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
