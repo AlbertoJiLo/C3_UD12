@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-17T10:49:03.414Z" agent="5.0 (Windows)" etag="8b13kZK0pN8SlbMk3hpt" version="20.4.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-17T10:54:08.837Z" agent="5.0 (Windows)" etag="mrPBNEVhXjOJ6xvs8mRN" version="20.4.1" type="github">
   <diagram id="Z1baeH_JgfqIXRIwHXEX" name="Page-1">
     <mxGraphModel dx="1550" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -264,6 +264,12 @@
         </mxCell>
         <mxCell id="kTL1AF8geWjdgYivo6Q2-20" value="Estar a cargo" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="10" y="106" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WyseUcgXTj2dpKz48mzO-1" value="Jefe" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="25" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WyseUcgXTj2dpKz48mzO-2" value="Empleado" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="235" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
