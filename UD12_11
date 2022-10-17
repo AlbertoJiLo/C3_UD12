@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2022-10-17T10:35:49.839Z" agent="5.0 (Windows)" etag="0mMcJQvBJmhB__BirJby" version="20.4.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-17T10:36:12.449Z" agent="5.0 (Windows)" etag="_CwU39PVLimEoFzGnuZC" version="20.4.1" type="github">
   <diagram id="sKNs6MDw3ccjfFDnozs9" name="Página-1">
     <mxGraphModel dx="1550" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="DOix5hZHfqh-LSc0z2Yf-1" value="Accidentes Geográficos" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+        <mxCell id="DOix5hZHfqh-LSc0z2Yf-1" value="Accidentes_Geográficos" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="250" y="40" width="140" height="104" as="geometry" />
         </mxCell>
         <mxCell id="DOix5hZHfqh-LSc0z2Yf-3" value="Nombre_accidente String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" parent="DOix5hZHfqh-LSc0z2Yf-1" vertex="1">
