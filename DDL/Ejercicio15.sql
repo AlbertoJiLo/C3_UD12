@@ -1,0 +1,46 @@
+CREATE DATABASE ejercicio15;
+USE ejercicio15;
+
+CREATE TABLE dia(
+id_dia INT NOT NULL PRIMARY KEY,
+plato_exitoso VARCHAR(30) NOT NULL,
+temperatura SMALLINT NOT NULL);
+
+CREATE TABLE menu(
+id_menu INT NOT NULL PRIMARY KEY,
+fecha_ofrece DATE NOT NULL);
+
+CREATE TABLE tener(
+id_menu INT NOT NULL,
+id_dia INT NOT NULL,
+numero_personas SMALLINT NOT NULL,
+cantidad_platos SMALLINT NOT NULL,
+PRIMARY KEY(id_menu,id_dia),
+FOREIGN KEY (id_menu) REFERENCES menu(id_menu) ON DELETE CASCADE ON UPDATE CASCADE,
+FOREIGN KEY (id_dia) REFERENCES dia(id_dia) ON DELETE CASCADE ON UPDATE CASCADE);
+
+CREATE TABLE plato(
+nombre_plato VARCHAR(30) NOT NULL PRIMARY KEY,
+descripción VARCHAR(500) NOT NULL);
+
+CREATE TABLE conformar(
+id_menu INT NOT NULL,
+nombre_plato VARCHAR(30) NOT NULL,
+PRIMARY KEY(id_menu,nombre_plato),
+FOREIGN KEY (id_menu) REFERENCES menu(id_menu) ON DELETE CASCADE ON UPDATE CASCADE,
+FOREIGN KEY (nombre_plato) REFERENCES plato(nombre_plato) ON DELETE CASCADE ON UPDATE CASCADE);
+
+CREATE TABLE primero(
+nombre_plato VARCHAR(30) NOT NULL PRIMARY KEY,
+id_primero INT NOT NULL,
+FOREIGN KEY (nombre_plato) REFERENCES plato(nombre_plato) ON DELETE CASCADE ON UPDATE CASCADE);
+
+CREATE TABLE segundo(
+nombre_plato VARCHAR(30) NOT NULL PRIMARY KEY,
+id_segundo INT NOT NULL,
+FOREIGN KEY (nombre_plato) REFERENCES plato(nombre_plato) ON DELETE CASCADE ON UPDATE CASCADE);
+
+CREATE TABLE postre(
+nombre_plato VARCHAR(30) NOT NULL PRIMARY KEY,
+id_postre INT NOT NULL,
+FOREIGN KEY (nombre_plato) REFERENCES plato(nombre_plato) ON DELETE CASCADE ON UPDATE CASCADE);
