@@ -8,7 +8,7 @@ temperatura SMALLINT NOT NULL);
 
 CREATE TABLE menu(
 id_menu INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
-fecha_ofrece DATE NOT NULL);
+fecha_ofrece VARCHAR(20) NOT NULL);
 
 CREATE TABLE tener(
 id_menu INT NOT NULL,

@@ -3,26 +3,26 @@ USE ejercicio12;
 
 
 CREATE TABLE empresaext(
-cif TINYINT NOT NULL PRIMARY KEY,
+cif VARCHAR(9) NOT NULL PRIMARY KEY,
 nombre VARCHAR(30) NOT NULL,
 direccion VARCHAR(50) NOT NULL,
-telefono TINYINT NOT NULL,
-codigo_interno INT NOT NULL);
+telefono INT NOT NULL,
+codigo_interno INT NOT NULL UNIQUE);
 
 CREATE TABLE proyecto(
 id_proyecto INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
 fecha_inicio DATE NOT NULL,
-fecha_final DATE NOT NULL,
+fecha_final DATE,
 fecha_prevista_fin DATE NOT NULL,
-cif TINYINT NOT NULL,
+cif VARCHAR(9) NOT NULL,
 FOREIGN KEY (cif) REFERENCES empresaext(cif) ON DELETE CASCADE ON UPDATE CASCADE);
 
 CREATE TABLE empleado(
 codigo_trabajador INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
-dni INT NOT NULL,
+dni VARCHAR(9) NOT NULL,
 nombre VARCHAR(30),
 apellidos VARCHAR(30),
-codigo_interno INT NOT NULL,
+codigo_interno INT NOT NULL UNIQUE,
 horas_proyecto INT NOT NULL);
 
 CREATE TABLE realizar(
