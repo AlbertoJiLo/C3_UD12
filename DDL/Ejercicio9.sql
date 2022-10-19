@@ -2,14 +2,14 @@ CREATE DATABASE ejercicio9;
 USE ejercicio9;
 
 CREATE TABLE receta(
-id_receta INT NOT NULL PRIMARY KEY,
+id_receta INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
 nombre VARCHAR(50) NOT NULL,
 dificultad TINYINT NOT NULL,
 instrucciones VARCHAR(1000) NOT NULL,
 foto MEDIUMBLOB);
 
 CREATE TABLE ingrediente(
-id_ingrediente INT NOT NULL PRIMARY KEY,
+id_ingrediente INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
 nombre VARCHAR(50) NOT NULL,
 alergenos VARCHAR(50) NOT NULL);
 

@@ -1,6 +1,7 @@
 CREATE DATABASE ejercicio12;
 USE ejercicio12;
 
+
 CREATE TABLE empresaext(
 cif TINYINT NOT NULL PRIMARY KEY,
 nombre VARCHAR(30) NOT NULL,
@@ -9,7 +10,7 @@ telefono TINYINT NOT NULL,
 codigo_interno INT NOT NULL);
 
 CREATE TABLE proyecto(
-id_proyecto INT NOT NULL PRIMARY KEY,
+id_proyecto INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
 fecha_inicio DATE NOT NULL,
 fecha_final DATE NOT NULL,
 fecha_prevista_fin DATE NOT NULL,
@@ -17,7 +18,7 @@ cif TINYINT NOT NULL,
 FOREIGN KEY (cif) REFERENCES empresaext(cif) ON DELETE CASCADE ON UPDATE CASCADE);
 
 CREATE TABLE empleado(
-codigo_trabajador INT NOT NULL PRIMARY KEY,
+codigo_trabajador INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
 dni INT NOT NULL,
 nombre VARCHAR(30),
 apellidos VARCHAR(30),

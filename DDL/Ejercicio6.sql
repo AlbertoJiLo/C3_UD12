@@ -2,14 +2,14 @@ CREATE DATABASE ejercicio6;
 USE ejercicio6;
 
 CREATE TABLE socio(
-codigo_socio INT NOT NULL PRIMARY KEY,
+codigo_socio INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
 dni VARCHAR(9) NOT NULL,
 nombre VARCHAR(30) NOT NULL,
 direccion VARCHAR(100) NOT NULL,
 telefono TINYINT NOT NULL);
 
 CREATE TABLE prestamo(
-id_prestamo INT NOT NULL PRIMARY KEY,
+id_prestamo INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
 fecha_inicio DATE NOT NULL,
 fecha_limite DATE NOT NULL,
 fecha_devolucion DATE NOT NULL,
@@ -17,7 +17,7 @@ codigo_socio INT NOT NULL,
 FOREIGN KEY (codigo_socio) REFERENCES socio(codigo_socio) ON DELETE CASCADE ON UPDATE CASCADE);
 
 CREATE TABLE articulo(
-codigo_articulo INT NOT NULL PRIMARY KEY,
+codigo_articulo INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
 nombre VARCHAR(50) NOT NULL,
 año SMALLINT NOT NULL,
 resumen VARCHAR(500) NOT NULL,
@@ -42,7 +42,7 @@ duracion INT NOT NULL,
 FOREIGN KEY (codigo_articulo) REFERENCES articulo(codigo_articulo) ON DELETE CASCADE ON UPDATE CASCADE);
 
 CREATE TABLE autor(
-id_autor INT NOT NULL PRIMARY KEY,
+id_autor INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
 nombre VARCHAR(30) NOT NULL,
 pais VARCHAR(30) NOT NULL);
 

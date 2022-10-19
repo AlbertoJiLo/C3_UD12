@@ -2,7 +2,7 @@ CREATE DATABASE ejercicio18;
 USE ejercicio18;
 
 CREATE TABLE cliente(
-cod_personal INT NOT NULL,
+cod_personal INT AUTO_INCREMENT NOT NULL,
 dni VARCHAR(9) NOT NULL,
 nombre VARCHAR(30) NOT NULL,
 apellidos VARCHAR(30) NOT NULL,
@@ -22,7 +22,7 @@ FOREIGN KEY (cod_personal_alquilador) REFERENCES cliente(cod_personal) ON DELETE
 FOREIGN KEY (cod_personal_gestor) REFERENCES cliente(cod_personal) ON DELETE CASCADE ON UPDATE CASCADE);
 
 CREATE TABLE inmueble(
-cod_inmueble INT NOT NULL PRIMARY KEY,
+cod_inmueble INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
 metros SMALLINT NOT NULL,
 descripcion VARCHAR(500) NOT NULL,
 direccion VARCHAR(100) NOT NULL);
@@ -35,7 +35,7 @@ FOREIGN KEY (cod_alquiler) REFERENCES alquiler(cod_alquiler) ON DELETE CASCADE O
 FOREIGN KEY (cod_inmueble) REFERENCES inmueble(cod_inmueble) ON DELETE CASCADE ON UPDATE CASCADE);
 
 CREATE TABLE compra(
-cod_compra INT NOT NULL PRIMARY KEY,
+cod_compra INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
 fecha DATE NOT NULL,
 valor FLOAT NOT NULL,
 cod_inmueble INT NOT NULL,
