@@ -1,0 +1,51 @@
+DROP database IF EXISTS ejercicio14;
+
+CREATE DATABASE IF NOT EXISTS ejercicio14;
+
+USE ejercicio14;
+
+CREATE TABLE IF NOT EXISTS usuario(
+email VARCHAR(100) NOT NULL PRIMARY KEY, 
+identificador INTEGER UNSIGNED NOT NULL,
+contrasenya VARCHAR(100) NOT NULL,
+nombre VARCHAR(100) NOT NULL,
+apellidos VARCHAR(100) NOT NULL,
+foto MEDIUMBLOB,
+escelebridad BOOL NOT NULL,
+direccion varchar(100),
+telefono INTEGER UNSIGNED NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS bloquear(
+emailcontacto VARCHAR(100) NOT NULL,
+emailusuario VARCHAR(100) NOT NULL,
+PRIMARY KEY (emailcontacto,emailusuario),
+FOREIGN KEY (emailusuario) REFERENCES usuario(email) ON DELETE CASCADE ON UPDATE CASCADE,
+FOREIGN KEY (emailcontacto) REFERENCES usuario(email) ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+CREATE TABLE IF NOT EXISTS agregar(
+emailcontacto VARCHAR(100) NOT NULL,
+emailusuario VARCHAR(100) NOT NULL,
+grupocontacto VARCHAR(300) NOT NULL,
+comentariocontacto VARCHAR(300) NOT NULL,
+PRIMARY KEY (emailcontacto,emailusuario),
+FOREIGN KEY (emailusuario) REFERENCES usuario(email) ON DELETE CASCADE ON UPDATE CASCADE,
+FOREIGN KEY (emailcontacto) REFERENCES usuario(email) ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+CREATE TABLE IF NOT EXISTS comentario(
+idcomentario BIGINT AUTO_INCREMENT NOT NULL PRIMARY KEY,
+texto VARCHAR(300) NOT NULL,
+foto MEDIUMBLOB,
+email VARCHAR(100) NOT NULL, 
+FOREIGN KEY (email) REFERENCES usuario(email) ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+CREATE TABLE IF NOT EXISTS comentar(
+idcomentario BIGINT NOT NULL PRIMARY KEY,
+email VARCHAR(100) NOT NULL, 
+usuariosadmitidos INTEGER NOT NULL,
+FOREIGN KEY (email) REFERENCES usuario(email) ON DELETE CASCADE ON UPDATE CASCADE,
+FOREIGN KEY (idcomentario) REFERENCES comentario(idcomentario) ON DELETE CASCADE ON UPDATE CASCADE
+);
