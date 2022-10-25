@@ -1,4 +1,4 @@
-USE ejercicio8;
+USE ejercicio8; 
 
 INSERT INTO aeropuerto (nombre,localidad,pais) VALUES ('Aeropuerto de Barcelona', 'Barcelona', 'España');
 INSERT INTO aeropuerto (nombre,localidad,pais) VALUES ('Aeropuerto de Madrid', 'Madrid', 'España');
